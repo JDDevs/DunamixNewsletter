@@ -1,0 +1,48 @@
+/* QUITAR DISEÑO PREDETERMINADO */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+  }
+
+  
+  /* ESTILOS DE LA PAGINA*/
+
+
+  /* ESTILOS DEL BACKGROUND */
+  body{
+    background-image: url(resources/fondo_beacons.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+  }
+
+    #versiculo h1{
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 400;
+
+    }
+
+    #versiculo p{
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      font-size: 1.2rem
+
+    }
+
+
+    footer{
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+  
